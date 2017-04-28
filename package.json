@@ -45,7 +45,7 @@
         "dir": "src/electron",
         "repository": {
           "url": "https://github.com/brave/muon.git",
-          "ref": "origin/master"
+          "ref": "origin/chromium59.0.3071.29"
         }
       },
       "browser_laptop": {
