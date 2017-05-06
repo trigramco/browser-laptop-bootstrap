@@ -1,6 +1,6 @@
 {
   "name": "browser-laptop-bootstrap",
-  "version": "0.13.3",
+  "version": "0.15.2",
   "description": "Bootstrap helper for Brave",
   "scripts": {
     "cibuild": "node ./scripts/commands.js cibuild",
@@ -26,9 +26,9 @@
     "projects": {
       "chrome": {
         "dir": "src",
+        "tag": "58.0.3029.96",
         "repository": {
-          "url": "https://chromium.googlesource.com/chromium/src.git",
-          "ref": "refs/tags/58.0.3029.96"
+          "url": "https://chromium.googlesource.com/chromium/src.git"
         },
         "custom_deps": {
           "src/third_party/angle": "https://chromium.googlesource.com/angle/angle.git@d1bed175f107143a7c52485a9d197b486cd5433e",
@@ -43,16 +43,15 @@
       },
       "muon": {
         "dir": "src/electron",
+        "version": "3.0.0",
         "repository": {
-          "url": "https://github.com/brave/muon.git",
-          "ref": "origin/master"
+          "url": "https://github.com/brave/muon.git"
         }
       },
       "browser_laptop": {
         "dir": "src/browser-laptop",
         "repository": {
-          "url": "https://github.com/brave/browser-laptop.git",
-          "ref": "origin/master"
+          "url": "https://github.com/brave/browser-laptop.git"
         }
       },
       "node": {
