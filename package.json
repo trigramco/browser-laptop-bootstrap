@@ -1,6 +1,6 @@
 {
   "name": "browser-laptop-bootstrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bootstrap helper for Brave",
   "scripts": {
     "cibuild": "node ./scripts/commands.js cibuild",
@@ -44,7 +44,7 @@
       },
       "muon": {
         "dir": "src/electron",
-        "branch": "3.0.x",
+        "branch": "3.1.x",
         "repository": {
           "url": "https://github.com/brave/muon.git"
         }
