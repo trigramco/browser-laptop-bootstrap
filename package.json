@@ -27,7 +27,7 @@
     "projects": {
       "chrome": {
         "dir": "src",
-        "tag": "58.0.3029.110",
+        "tag": "59.0.3071.71",
         "repository": {
           "url": "https://chromium.googlesource.com/chromium/src.git"
         },
@@ -44,7 +44,7 @@
       },
       "muon": {
         "dir": "src/electron",
-        "branch": "3.0.x",
+        "branch": "3.2.x",
         "repository": {
           "url": "https://github.com/brave/muon.git"
         }
