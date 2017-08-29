@@ -29,10 +29,6 @@ program
   .option('--electron_google_api_key <electron_google_api_key>')
   .option('--electron_google_api_endpoint <electron_google_api_endpoint>')
   .option('--no_branding_update', 'don\'t copy BRANDING to the chrome theme dir')
-  .option('--sign_widevine', 'generate widevine signature files')
-  .option('--sign_widevine_passphrase <passphrase>', 'passphrase to access the private key')
-  .option('--sign_widevine_key <key>', 'location to private key')
-  .option('--sign_widevine_cert <cert>', 'location to certificate')
   .arguments('[build_config]')
   .action(build)
 
