@@ -43,6 +43,7 @@
       },
       "muon": {
         "dir": "src/electron",
+        "branch": "ad-block",
         "repository": {
           "url": "https://github.com/brave/muon.git"
         }
