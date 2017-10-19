@@ -49,7 +49,7 @@
         }
       },
       "browser_laptop": {
-        "version": "0.20.x",
+        "version": "0.19.x",
         "dir": "src/browser-laptop",
         "repository": {
           "url": "https://github.com/brave/browser-laptop.git"
