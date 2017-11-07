@@ -13,6 +13,8 @@
     "upload": "node ./scripts/commands.js upload",
     "publish": "node ./scripts/commands.js publish",
     "start": "node ./scripts/commands.js start",
+    "gdb": "node ./scripts/commands.js start --gdb",
+    "lldb": "node ./scripts/commands.js start --lldb",
     "rsync-prebuilt": "rsync -avz --delete src/out/Release/Brave.app/ src/browser-laptop/node_modules/electron-prebuilt/dist/Brave.app/",
     "rsync-prebuilt-linux": "rsync -avz --delete src/out/Release/dist src/browser-laptop/node_modules/electron-prebuilt/dist/",
     "xcopy-prebuilt": "xcopy src\\out\\Release\\dist src\\browser-laptop\\node_modules\\electron-prebuilt\\dist\\ /Y /S /I /F /R",
