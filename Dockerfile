@@ -8,8 +8,11 @@ RUN apt-get update && apt-get install -y \
   gcc-multilib \
   git \
   gperf \
+  libasound2 \
+  libgconf2-dev \
   libgnome-keyring-dev \
   libnotify-dev \
+  libnss3 \
   libssl-dev \
   ninja-build \
   python-pip \
