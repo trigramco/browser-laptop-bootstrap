@@ -43,7 +43,7 @@
       },
       "muon": {
         "dir": "src/electron",
-        "version": "4.5.x",
+        "version": "4.7.x",
         "repository": {
           "url": "https://github.com/brave/muon.git"
         }
