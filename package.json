@@ -49,7 +49,7 @@
         }
       },
       "browser_laptop": {
-        "branch": "C65",
+        "branch": "0.21.x-C65",
         "dir": "src/browser-laptop",
         "repository": {
           "url": "https://github.com/brave/browser-laptop.git"
