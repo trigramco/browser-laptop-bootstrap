@@ -43,12 +43,13 @@
       },
       "muon": {
         "dir": "src/electron",
-        "version": "5.1.x",
+        "branch": "single-webview2-c65",
         "repository": {
           "url": "https://github.com/brave/muon.git"
         }
       },
       "browser_laptop": {
+        "branch": "single-webview",
         "dir": "src/browser-laptop",
         "version": "0.21.x",
         "repository": {
