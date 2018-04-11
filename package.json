@@ -50,7 +50,7 @@
       },
       "browser_laptop": {
         "dir": "src/browser-laptop",
-        "branch": "0.21.x",
+        "branch": "0.22.x",
         "repository": {
           "url": "https://github.com/brave/browser-laptop.git"
         }
