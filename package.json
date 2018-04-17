@@ -49,9 +49,8 @@
         }
       },
       "browser_laptop": {
-        "branch": "single-webview",
+        "branch": "0.22.x-single-webview",
         "dir": "src/browser-laptop",
-        "version": "0.21.x",
         "repository": {
           "url": "https://github.com/brave/browser-laptop.git"
         }
