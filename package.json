@@ -43,14 +43,14 @@
       },
       "muon": {
         "dir": "src/electron",
-        "branch": "C66",
+        "branch": "5.2.x+66.0.3359.117",
         "repository": {
           "url": "git@github.com:brave/muon.git"
         }
       },
       "browser_laptop": {
         "dir": "src/browser-laptop",
-        "branch": "0.22.x",
+        "branch": "0.22.x-c66",
         "repository": {
           "url": "https://github.com/brave/browser-laptop.git"
         }
