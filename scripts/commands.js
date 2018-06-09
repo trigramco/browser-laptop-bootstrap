@@ -55,6 +55,7 @@ program
   .option('--user_data_dir_name [base_name]', 'set user data directory base name to [base_name]', 'brave-development')
   .option('--node_env [env]', 'set the node env to [env]', 'development')
   .option('--no_sandbox', 'disable the sandbox')
+  .option('--debug_tab_events', 'show browser laptop tab events')
   .arguments('[build_config]')
   .action(start)
 
