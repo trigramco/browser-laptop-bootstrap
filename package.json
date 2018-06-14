@@ -43,7 +43,7 @@
       },
       "muon": {
         "dir": "src/electron",
-        "branch": "C67",
+        "branch": "7.0.x",
         "repository": {
           "url": "git@github.com:brave/muon.git"
         }
