@@ -29,6 +29,7 @@ program
   .option('--electron_google_api_key <electron_google_api_key>')
   .option('--electron_google_api_endpoint <electron_google_api_endpoint>')
   .option('--no_branding_update', 'don\'t copy BRANDING to the chrome theme dir')
+  .option('-j, --jobs <N>', 'run N jobs in parallel')
   .arguments('[build_config]')
   .action(build)
 
