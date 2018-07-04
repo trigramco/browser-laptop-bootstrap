@@ -13,6 +13,9 @@ RUN apt-get update && apt-get install -y \
   libssl-dev \
   ninja-build \
   python-pip \
+  libnss3 \
+  libxss1 \
+  libasound2 \
   sudo
 
 RUN npm install -g node-gyp@3.3.1
