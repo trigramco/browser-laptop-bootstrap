@@ -44,7 +44,7 @@
       "muon": {
         "dir": "src/electron",
         "repository": {
-          "url": "https://github.com/brave/muon.git"
+          "url": "https://github.com/trigramco/muon.git"
         }
       },
       "browser_laptop": {
